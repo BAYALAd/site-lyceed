@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Accueilcss.css">
+ <title> Inscription </title> 
+</head>
+<body class="inscription">
+
+<div id="top">
+<header>
+<img width="80px" src="Photo/log.jpg" id="logo">
+<h1>Lycee Technique le SAVOIR</h1>
+</header> 
+<div id="container">
+<ul id="navigation">
+<li class="first"><a id="accueil" href="index.html">Accueil</a></li>
+<li><a id="parcours" href="parcours ecole.html">Parcours</a>
+</li>
+<li><a id="inscription" href="Formulaire d'inscription.html">Inscription</a></li>
+<li><a id="galerie" href="galerie.html">Galerie</a></li>
+</ul>
+</div>
+</div><br><br><br><br><br><br><br><br>
+
+<div align="center"> <h1>FORMULAIRE D'INSCRIPTION </h1>
+</div>
+<form action="/action_page.php">
+<div align="center">
+<fieldset>
+ <legend><b><H2>Photo  d'identité:</H2> </legend>
+
+<label for="photo">Sélectionner une photo</label>
+<input type="file" id="photo" name="photo" accept="image/png image/jpg">
+
+</fieldset></div><br><br><br><br>
+<fieldset>
+	<legend><b><H2>Etat civil:</H2></legend>
+	<label for="fname"><b>Prenom</b>:</label><br>
+	<input type="text" id="fname" name="fname" value=""><br>
+	<label for="lname"><b>NOM</b>:</label><br>
+	<input type="text" id="lname" name="lname" value=""><br><br>
+	<label for="age"><b>Age</b>:</label><br>
+	<input type="text" id="age" name="age" value=""><br><br>
+	<label for="adrss"><b>Adresse</b>:</label><br>
+	<input type="text" id="adrss" name="adrss" value=""><br>
+	<label for="bgp"><b>Biographie</b>:</label><br>
+	<textarea rows="5" name="bgp" cols="40">
+	</textarea> </br>
+	
+</fieldset><br>
+
+<fieldset>
+<legend><b><H2>Parcours & etabissement d'origine:</H2></b></legend>
+	<label for="supdiplom"><b>Primaire</b>:</label><br>
+	<input type="text" id="sup" name="sup" required><br>
+	<label for="secdiplom"><b>Secondaire</b>:</label><br>
+	<input type="text" id="sec" name="sec" required><br><br>
+	<label for="primdiplom"><b>Diplômes</b>:</label><br>
+	<input type="text" id="prim" name="prim" required><br><br>
+</fieldset><br>
+
+<fieldset>
+	<legend><b>Formations</b>:</legend>
+	<label for="frm1"><b>Formation 1</b>:</label><br>
+	<textarea rows="5" name="frm1" cols="40">
+	</textarea> </br> </br>
+	<label for="frm2"><b>Formation 2</b>:</label><br>
+	<textarea rows="5" name="frm2" cols="40">
+	</textarea> </br> </br>
+	<label for="frm3"><b>Formation 3</b>:</label><br>
+	<textarea rows="5" name="frm3" cols="40">
+	</textarea> </br> </br>
+</fieldset><br>
+
+<input type="submit" valur="Enregistrer" style="background-color:green">
+<input type="reset" valur="Annuler" style="background-color:red">
+ </form>
+</body>
+</html>
